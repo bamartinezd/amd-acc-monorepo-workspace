@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmdAcc.Customer.Core", "app
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmdAcc.Products.App", "apps\dotnet\products\AmdAcc.Products.App\AmdAcc.Products.App.csproj", "{146D8902-F67D-4B0E-8E3F-F30AD6AD2768}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmdAcc.Products.Core", "apps\dotnet\products\AmdAcc.Products.Core\AmdAcc.Products.Core.csproj", "{1DCB621D-98D4-408A-A897-BC30DF23993E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmdAcc.Products.Data.EF", "apps\dotnet\products\AmdAcc.Products.Data.EF\AmdAcc.Products.Data.EF.csproj", "{5B130720-C638-42D2-B718-A99A105EE972}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{146D8902-F67D-4B0E-8E3F-F30AD6AD2768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{146D8902-F67D-4B0E-8E3F-F30AD6AD2768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{146D8902-F67D-4B0E-8E3F-F30AD6AD2768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCB621D-98D4-408A-A897-BC30DF23993E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCB621D-98D4-408A-A897-BC30DF23993E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCB621D-98D4-408A-A897-BC30DF23993E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCB621D-98D4-408A-A897-BC30DF23993E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B130720-C638-42D2-B718-A99A105EE972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B130720-C638-42D2-B718-A99A105EE972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B130720-C638-42D2-B718-A99A105EE972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B130720-C638-42D2-B718-A99A105EE972}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
